@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1920px;
+    padding: 0 400px;
+    margin: 0 auto;
+}
+
+a{text-decoration: none;}
+
+:root 
+{
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Good Vibes Pro", sans-serif;
+  --third-family: "Geometria", sans-serif;
+  --font3: "Ubuntu", sans-serif;
+}

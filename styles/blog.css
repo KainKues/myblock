@@ -1,7 +1,4 @@
-.blog
-{
-    margin: 32px 0 80px;
-}
+.blog { margin: 32px 0 80px;}
 
 .blog__top
 {
@@ -12,7 +9,6 @@
 
 .blog__title
 {
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 36px;
     color: #1d1d1b;
@@ -23,7 +19,6 @@
     display: flex;
     align-items: center;
 
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 14px;
     color: #e0001b;
@@ -34,13 +29,13 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 67px;
     column-gap: 32px;
+    margin-bottom: 67px;
 }
 
 .blog__card-title
 {
     margin: 24px 0 12px;
 
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 16px;
     color: #1d1d1b;
@@ -50,7 +45,6 @@
 {
     margin-bottom: 12px;
 
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
@@ -59,10 +53,38 @@
 
 .blog__card-date
 {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 12px;
     color: #1d1d1b;
     opacity: 0.5;
 }
+
+
+.blog-slider
+{
+    max-width: max-content;
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.blog-slider__point
+{
+    background-color: #F6F6F6;
+    height: 48px;
+    width: 48px;
+    padding: 16px;
+    border-radius: 50%;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #1d1d1b;
+    opacity: 0.4;
+}
+
+.blog-slider__point--selected { opacity: 1;}
+
+
 

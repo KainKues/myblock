@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans';
 }
 
 .container
@@ -14,10 +15,3 @@
 
 a{text-decoration: none;}
 
-:root 
-{
-  --font-family: "Open Sans", sans-serif;
-  --second-family: "Good Vibes Pro", sans-serif;
-  --third-family: "Geometria", sans-serif;
-  --font3: "Ubuntu", sans-serif;
-}
